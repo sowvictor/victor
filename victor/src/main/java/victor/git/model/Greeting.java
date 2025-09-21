@@ -1,4 +1,6 @@
 package victor.git.model;
 
-public record Greeting() {
+public record Greeting(long id , String content) {
+
+
 }
